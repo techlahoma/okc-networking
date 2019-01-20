@@ -12,7 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   AppComponent,
   NavigationBarComponent,
-  HomeComponent
+  HomeComponent,
+  HeaderComponent
 } from './components';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
