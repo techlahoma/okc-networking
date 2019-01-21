@@ -13,7 +13,10 @@ import {
   AppComponent,
   NavigationBarComponent,
   HomeComponent,
-  HeaderComponent
+  HeaderComponent,
+  ScheduleComponent,
+  SignupComponent,
+  QuestionsComponent
 } from './components';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,7 +25,10 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     NavigationBarComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    ScheduleComponent,
+    SignupComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,
