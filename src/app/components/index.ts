@@ -5,3 +5,6 @@ export { HeaderComponent } from './header/header.component';
 export { ScheduleComponent } from './schedule/schedule.component';
 export { SignupComponent } from './signup/signup.component';
 export { QuestionsComponent } from './questions/questions.component';
+export { FoodComponent } from './food/food.component';
+export { LocationComponent } from './location/location.component';
+export { SponsorsComponent } from './sponsors/sponsors.component';

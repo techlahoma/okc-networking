@@ -16,9 +16,12 @@ import {
   HeaderComponent,
   ScheduleComponent,
   SignupComponent,
-  QuestionsComponent
+  QuestionsComponent,
+  FoodComponent,
+  LocationComponent
 } from './components';
 import { HttpClientModule } from '@angular/common/http';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     ScheduleComponent,
     SignupComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    FoodComponent,
+    LocationComponent,
+    SponsorsComponent
   ],
   imports: [
     BrowserModule,
