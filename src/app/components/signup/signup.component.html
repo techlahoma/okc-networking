@@ -1,14 +1,32 @@
-<mat-card class='container'>
-  <mat-card-header>
-    <mat-card-title>Sign up</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <h2>Sign up as an attendee</h2>
-    <h2>Sign up as a coach</h2>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>SIGN UP</button>
-  </mat-card-actions>
-</mat-card>
+<div class='card'>
+  <div class='title'>Sign Up</div>
+  <div class='line'></div>
 
-<!-- https://docs.google.com/forms/d/e/1FAIpQLSd37i3Q708CW8EiF3m4EAUyBQ0ELtjmwgThL8CZjqhWogxewQ/viewform -->
+  <p>There are three ways to participate in the workshop: as an attendee, coach, or volunteer.</p>
+
+  <h2>Attendee</h2>
+  <p>You're a woman that wants to learn web development? Great! To sign up, simply fill out this google form:</p>
+  <div class='button-box'>
+    <button mat-flat-button color='primary' (click)='signUp()'>ATTENDEE SIGN UP</button>
+  </div>
+
+  <h2>Coach</h2>
+  <p>You're a man or a woman that wants to help teach women to program? We can use you! Don't worry, you don't have to be a developer. As long as you meet these requirements, you are a candidate.</p>
+  <ul>
+    <li>Have some working knowledge of development environments like text editors, browser dev tools, etc.</li>
+    <li>Are able to complete the curriculum <em>before the event</em>. Coaches who do not do this will not be allowed to participate as a coach on the day of the workshop.</li>
+    <li>Have and <em>will</em> bring their own laptop.</li>
+    <li>Are willing to adhere to the <a href='https://www.techlahoma.org/code-of-conduct/'>Techlahoma Code of Conduct</a></li>
+    <li>Interview with the organizer or co-organizer before the workshop.</li>
+  </ul>
+  <p>Meet these requirements? Great! Fill out this google form and we will be in touch:</p>
+  <div class='button-box'>
+    <button mat-flat-button color='primary' (click)='signUp()'>COACH SIGN UP</button>
+  </div>
+
+  <h2>Volunteer</h2>
+  <p>Want to help out, but don't want to be a coach? No problem! We need people to help set up, pick up food, and clean up after. Fill out this google doc:</p>
+  <div class='button-box'>
+    <button mat-flat-button color='primary' (click)='signUp()'>VOLUNTEER SIGN UP</button>
+  </div>
+</div>

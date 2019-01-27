@@ -12,4 +12,7 @@ export class SignupComponent implements OnInit {
   ngOnInit() {
   }
 
+  signUp(): void {
+    window.open('https://docs.google.com/forms/d/11XiNKSw0be1k4GBk_uOCARVKFctEUME12tnyxkdbqLA');
+  }
 }

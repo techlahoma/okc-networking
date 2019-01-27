@@ -3,9 +3,52 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0;
+  background: #f1f5f8;
+  color: #22292f;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+li {
+  font-size: 1.1em;
 }
 
 .version-info {
   font-size: 8pt;
   float: right;
+}
+
+.card {
+  max-width: 800px;
+  box-shadow: 0 0 10px 0 rgba(202, 202, 202, 0.5);
+  padding: 20px;
+  background: white;
+  margin: 10px;
+
+  .avatar {
+    border-radius: 100%;
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+  .line {
+    width: 100%;
+    height: 2px;
+    background: #ECEFF2;
+    margin: 10px 0px 10px 0px;
+  }
 }
