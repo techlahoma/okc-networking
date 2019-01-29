@@ -8,6 +8,7 @@ import {
 } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import {
   AppComponent,
@@ -18,11 +19,10 @@ import {
   SignupComponent,
   QuestionsComponent,
   FoodComponent,
-  LocationComponent
+  LocationComponent,
+  CurriculumComponent,
+  SponsorsComponent
 } from './components';
-import { HttpClientModule } from '@angular/common/http';
-import { SponsorsComponent } from './components/sponsors/sponsors.component';
-import { CurriculumComponent } from './components/curriculum/curriculum.component';
 
 @NgModule({
   declarations: [

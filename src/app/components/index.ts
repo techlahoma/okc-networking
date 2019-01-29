@@ -8,3 +8,4 @@ export { QuestionsComponent } from './questions/questions.component';
 export { FoodComponent } from './food/food.component';
 export { LocationComponent } from './location/location.component';
 export { SponsorsComponent } from './sponsors/sponsors.component';
+export { CurriculumComponent } from './curriculum/curriculum.component';
