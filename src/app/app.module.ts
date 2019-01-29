@@ -22,6 +22,7 @@ import {
 } from './components';
 import { HttpClientModule } from '@angular/common/http';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
+import { CurriculumComponent } from './components/curriculum/curriculum.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
     QuestionsComponent,
     FoodComponent,
     LocationComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    CurriculumComponent
   ],
   imports: [
     BrowserModule,
