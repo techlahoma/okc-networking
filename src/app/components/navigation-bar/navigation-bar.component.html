@@ -8,6 +8,15 @@
       <app-home></app-home>
     </div>
   </mat-tab>
+  <mat-tab label="Sign Up!">
+    <ng-template mat-tab-label>
+      <img src='assets/assignment.svg'>
+      Sign Up!
+    </ng-template>
+    <div class='tab-content-container'>
+      <app-signup></app-signup>
+    </div>
+  </mat-tab>
   <mat-tab label="Schedule">
     <ng-template mat-tab-label>
       <img src='assets/event_note.svg'>
@@ -60,15 +69,6 @@
     </ng-template>
     <div class='tab-content-container'>
       <app-sponsors></app-sponsors>
-    </div>
-  </mat-tab>
-  <mat-tab label="Sign Up!">
-    <ng-template mat-tab-label>
-      <img src='assets/assignment.svg'>
-      Sign Up!
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-signup></app-signup>
     </div>
   </mat-tab>
 </mat-tab-group>
