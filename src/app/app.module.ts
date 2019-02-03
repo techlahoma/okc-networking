@@ -4,7 +4,8 @@ import {
   MatTabsModule,
   MatCardModule,
   MatButtonModule,
-  MatIconModule
+  MatIconModule,
+  MatToolbarModule
 } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -46,6 +47,7 @@ import {
     MatCardModule,
     MatButtonModule,
     MatIconModule,
+    MatToolbarModule,
     HttpClientModule
   ],
   providers: [],

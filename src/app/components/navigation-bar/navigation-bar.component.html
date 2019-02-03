@@ -1,74 +1,34 @@
-<mat-tab-group mat-align-tabs="center">
-  <mat-tab label="Home">
-    <ng-template mat-tab-label>
-      <img src='assets/home.svg'>
-      Home
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-home></app-home>
-    </div>
-  </mat-tab>
-  <mat-tab label="Sign Up!">
-    <ng-template mat-tab-label>
-      <img src='assets/assignment.svg'>
-      Sign Up!
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-signup></app-signup>
-    </div>
-  </mat-tab>
-  <mat-tab label="Schedule">
-    <ng-template mat-tab-label>
-      <img src='assets/event_note.svg'>
-      Schedule
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-schedule></app-schedule>
-    </div>
-  </mat-tab>
-  <mat-tab label="Location">
-    <ng-template mat-tab-label>
-      <img src='assets/map.svg'>
-      Location
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-location></app-location>
-    </div>
-  </mat-tab>
-  <mat-tab label="Curriculum">
-    <ng-template mat-tab-label>
-      <img src='assets/class.svg'>
-      Curriculum
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-curriculum></app-curriculum>
-    </div>
-  </mat-tab>
-  <mat-tab label="Food">
-    <ng-template mat-tab-label>
-      <img src='assets/restaurant.svg'>
-      Food
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-food></app-food>
-    </div>
-  </mat-tab>
-  <mat-tab label="Questions">
-    <ng-template mat-tab-label>
-      <img src='assets/chat.svg'>
-      Questions
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-questions></app-questions>
-    </div>
-  </mat-tab>
-  <mat-tab label="Sponsors">
-    <ng-template mat-tab-label>
-      <img src='assets/attach_money.svg'>
-      Sponsors
-    </ng-template>
-    <div class='tab-content-container'>
-      <app-sponsors></app-sponsors>
-    </div>
-  </mat-tab>
-</mat-tab-group>
+<nav mat-tab-nav-bar>
+  <a mat-tab-link [routerLink]='["home"]' routerLinkActive='highlight'>
+    <img src='assets/home.svg'>
+    <span>Home</span>
+  </a>
+  <a mat-tab-link [routerLink]='["sign-up"]' routerLinkActive='highlight'>
+    <img src='assets/assignment.svg'>
+    <span>Sign-up</span>
+  </a>
+  <a mat-tab-link [routerLink]='["schedule"]' routerLinkActive='highlight'>
+    <img src='assets/event_note.svg'>
+    <span>Schedule</span>
+  </a>
+  <a mat-tab-link [routerLink]='["location"]' routerLinkActive='highlight'>
+    <img src='assets/map.svg'>
+    <span>Location</span>
+  </a>
+  <a mat-tab-link [routerLink]='["curriculum"]' routerLinkActive='highlight'>
+    <img src='assets/class.svg'>
+    <span>Curriculum</span>
+  </a>
+  <a mat-tab-link [routerLink]='["food"]' routerLinkActive='highlight'>
+    <img src='assets/restaurant.svg'>
+    <span>Food</span>
+  </a>
+  <a mat-tab-link [routerLink]='["questions"]' routerLinkActive='highlight'>
+    <img src='assets/chat.svg'>
+    <span>Questions</span>
+  </a>
+  <a mat-tab-link [routerLink]='["sponsors"]' routerLinkActive='highlight'>
+    <img src='assets/attach_money.svg'>
+    <span>Sponsors</span>
+  </a>
+</nav>

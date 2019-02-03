@@ -1,8 +1,25 @@
-.tab-content-container {
+img {
+  margin-right: 5px;
+}
+
+span {
+  @media(max-width: 600px) {
+    display: none
+  }
+}
+
+.mat-tab-nav-bar {
+  background: white;
+  border-top: 1px solid #ECEFF2;
   display: flex;
   justify-content: center;
 }
 
-.mat-tab-label-container {
-  background: white;
+.mat-tab-link {
+  padding: 0 5px;
+  border-bottom: 5px solid transparent;
+}
+
+.highlight {
+  border-color:rgba(204, 0, 0, 0.5);
 }
