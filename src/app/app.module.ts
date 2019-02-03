@@ -16,13 +16,10 @@ import {
   NavigationBarComponent,
   HomeComponent,
   HeaderComponent,
-  ScheduleComponent,
   SignupComponent,
   QuestionsComponent,
-  FoodComponent,
-  LocationComponent,
-  CurriculumComponent,
-  SponsorsComponent
+  SponsorsComponent,
+  InfoComponent
 } from './components';
 
 @NgModule({
@@ -31,13 +28,10 @@ import {
     NavigationBarComponent,
     HomeComponent,
     HeaderComponent,
-    ScheduleComponent,
     SignupComponent,
     QuestionsComponent,
-    FoodComponent,
-    LocationComponent,
     SponsorsComponent,
-    CurriculumComponent
+    InfoComponent
   ],
   imports: [
     BrowserModule,
