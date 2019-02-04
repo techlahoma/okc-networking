@@ -13,8 +13,12 @@ span {
 }
 
 .mat-tab-link {
-  padding: 0 5px;
   border-bottom: 5px solid transparent;
+  min-width: 50px !important;
+
+  @media(max-width: 600px) {
+    padding: 0 18px !important;
+  }
 }
 
 .highlight {

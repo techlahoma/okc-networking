@@ -4,7 +4,7 @@ h1, h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 h2 {
@@ -17,6 +17,5 @@ img {
 
 .container {
   background: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px;
 }
