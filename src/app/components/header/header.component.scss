@@ -11,11 +11,21 @@ h2 {
   color: #656565;
 }
 
-img {
+.rails-img {
   height: 1.2em;
 }
 
 .container {
   background: white;
   padding: 20px 10px;
+}
+
+.forkme-link {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+
+  @media(max-width: 600px) {
+    display: none;
+  }
 }
