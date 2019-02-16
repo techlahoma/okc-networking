@@ -1,21 +1,21 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 body {
-  font-family: Roboto, Arial, sans-serif;
-  margin: 0;
   background: #f1f5f8;
+  font-family: Roboto, Arial, sans-serif;
   color: #22292f;
+  margin: 0;
 }
 
 .button {
   background: #673AB7;
+  border-radius: 6px;
   color: white;
   cursor: pointer;
   height: 40px;
   line-height: 40px;
   text-align: center;
   width: 250px;
-  border-radius: 6px;
 
   @media(max-width: 600px) {
     width: 100%;
@@ -31,8 +31,8 @@ li {
 }
 
 .version-info {
-  font-size: 8pt;
   float: right;
+  font-size: 8pt;
 }
 
 .content {
@@ -43,11 +43,11 @@ li {
 }
 
 .card {
-  max-width: 800px;
-  box-shadow: 0 0 10px 0 rgba(202, 202, 202, 0.5);
-  padding: 20px;
   background: white;
+  box-shadow: 0 0 10px 0 rgba(202, 202, 202, 0.5);
   margin: 30px;
+  max-width: 800px;
+  padding: 20px;
 
   @media(max-width: 600px) {
     margin: 5px;
@@ -55,13 +55,13 @@ li {
 
   .avatar {
     border-radius: 100%;
-    width: 60px;
     margin-right: 10px;
+    width: 60px;
   }
 
   .header {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 
   .title {
@@ -71,29 +71,14 @@ li {
   }
 
   .line {
-    width: 100%;
-    height: 2px;
     background: #ECEFF2;
+    height: 2px;
     margin: 10px 0px 10px 0px;
+    width: 100%;
   }
 
   .name {
     font-size: 1.2em;
     font-weight: bold;
   }
- 
-  .sponsor {
-    max-width: 100%;
-    max-height: 330px;
-    margin-right: 40px;
-  }
-}
-
-#header {
-  max-width: 100%;
-  max-height: 300px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }

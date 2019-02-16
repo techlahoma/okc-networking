@@ -1,0 +1,13 @@
+.sponsor {
+  max-height: 330px;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+
+  @media(max-width: 600px) {
+    flex-direction: column;
+  }
+}
