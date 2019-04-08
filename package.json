@@ -1,5 +1,5 @@
 {
-  "name": "rails-workshop-website",
+  "name": "okc-networking",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -53,5 +53,22 @@
   "engines": {
     "node": "8.11.4",
     "npm": "5.8.0"
-  }
+  },
+  "description": "This is the website for the Rails OKC Workshop. For more info on the event go to rails-okc.techlahoma.org",
+  "main": "src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-code4okc/rails_workshop_website.git"
+  },
+  "author": "Alex Ayon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-code4okc/rails_workshop_website/issues"
+  },
+  "homepage": "https://github.com/alex-code4okc/rails_workshop_website#readme",
+  "keywords": [
+    "networking",
+    "techlahoma",
+    "okc"
+  ]
 }
