@@ -54,7 +54,7 @@
     "node": "8.11.4",
     "npm": "5.8.0"
   },
-  "description": "This is the website for the Rails OKC Workshop. For more info on the event go to rails-okc.techlahoma.org",
+  "description": "This is the website for the OKC Networking event. For more info on the event go to htps://techlahoma.org",
   "main": "src/index.html",
   "repository": {
     "type": "git",
