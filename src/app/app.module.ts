@@ -19,8 +19,10 @@ import {
   SignupComponent,
   QuestionsComponent,
   SponsorsComponent,
-  InfoComponent
+  InfoComponent,
 } from './components';
+
+import { FoodComponent } from './components/food/food.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import {
     SignupComponent,
     QuestionsComponent,
     SponsorsComponent,
-    InfoComponent
+    InfoComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,
