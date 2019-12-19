@@ -2,6 +2,8 @@
 * January 27, 2020
 * from 5:30pm to 7:30pm
 
+![Graphic](https://secure.meetupstatic.com/photos/event/a/9/f/f/highres_487483519.jpeg)
+
 ## Venue
 * RACK59 Event Space at 7725 Connect
 * 7725 W Reno Ave, Auditorium # 2B, OKC, OK 73127
